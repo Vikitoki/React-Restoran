@@ -111,6 +111,7 @@ const babelOptions = (preset) => {
 };
 
 module.exports = {
+  // target: "node",
   context: path.resolve(__dirname, "source"),
   resolve: {
     extensions: [".js", ".json", ".css", ".scss"],
